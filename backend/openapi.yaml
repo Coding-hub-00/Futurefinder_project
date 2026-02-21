@@ -1,0 +1,50 @@
+openapi: 3.0.0
+info:
+  title: FutureFinder API
+  version: 1.0.0
+  description: Career guidance and job matching platform
+servers:
+  - url: http://127.0.0.1:8000/api
+paths:
+  /auth/login/:
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Login successful
+  /auth/register/:
+    post:
+      summary: User registration
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '201':
+          description: User created
+  /recommendations/:
+    get:
+      summary: Get career recommendations
+      responses:
+        '200':
+          description: List of career recommendations

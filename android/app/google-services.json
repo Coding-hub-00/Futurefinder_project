@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "167650902593",
+    "project_id": "ffvs-7f6a4",
+    "storage_bucket": "ffvs-7f6a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167650902593:android:268f178889609dc1133cc0",
+        "android_client_info": {
+          "package_name": "com.example.ffvs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkqP-KqPOtbzHu3dJGu6ox0DiQUBsonVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
